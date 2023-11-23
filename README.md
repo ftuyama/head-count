@@ -5,4 +5,6 @@ Head count on a picture
 python3 main.py
 ```
 
+Example:
+
 ![image](https://github.com/ftuyama/head-count/assets/11530478/47044686-fced-494c-9e96-1599c8bfbb2f)
