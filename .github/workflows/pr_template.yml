@@ -1,0 +1,22 @@
+name: PR Template
+
+on:
+  pull_request:
+    branches:
+      - '*'
+      - '!dev'
+      - '!staging'
+      - '!qa'
+      - '!master'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Use dynamic-template-action
+      uses: luigibertaco/dynamic-template-action@1.0.0
+
